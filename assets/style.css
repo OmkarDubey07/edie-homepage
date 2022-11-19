@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+        /* HEADER SECTION */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.8rem 3rem;
+}
+.logo p{
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.nav ul {
+    display: flex;
+   
+}
+.nav ul li{
+    margin: 0 1.9rem;
+    list-style: none;
+    padding-top: 13px;
+
+}
+.nav ul li a{
+    color: #333333;
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 500;
+}
