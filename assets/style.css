@@ -14,7 +14,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 2.8rem 3rem;
+    margin: 2rem 3rem;
 }
 .logo p{
     font-size: 40px;
@@ -33,7 +33,84 @@ body{
 }
 .nav ul li a{
     color: #333333;
-    font-size:20px;
+    font-size:22px;
     text-decoration: none;
     font-weight: 500;
 }
+
+            /* HERO SECTION  */
+
+
+main{
+    margin: 2rem 3rem;
+    position: relative;
+}
+.main-box1{
+    margin: 6rem 0 1rem;
+    width: 33rem;
+    position: relative;
+    left: 16rem;
+}
+.main-box1 p{
+    color: #2d9cdb;
+    font-size: 18px;
+    line-height: 27px;
+}
+.main-box1 h1 ,
+.main-box2 h1{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 500;
+}
+main img{
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 18px;
+    margin: 2rem 0;
+}
+
+.main-box2{
+    max-width: 22rem ;
+    position: relative;
+    left: 16rem;
+    position: relative;
+}
+.main-box2 P{
+    margin-top: 2rem;
+    font-size: 18px;
+    line-height: 27px;
+}
+.main-box2 .span{
+    margin-top: 2rem ;
+    color: #828282 ;
+    font-size: 14px;
+}
+input[type="email"]{
+    width: 21rem;
+    height: 3.4rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type="email"]::placeholder{
+    font-size: 18px;
+    color: #bdbdbd;
+}
+input[type="button"]{
+    width: 5.8rem;
+    height: 2.7rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #2d9cdb;
+    font-size: 18px;
+    color: #f2f2f2;
+    position: absolute;
+    right: 1.3rem;
+    bottom: 5px;
+}
+
+
+            /* SERVICE SECTION */
+
