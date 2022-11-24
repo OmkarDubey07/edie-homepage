@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +98,7 @@ input[type="email"]::placeholder {
   font-size: 18px;
   color: #bdbdbd;
 }
-input[type="button"] {
+.main-box2 input[type="button"] {
   width: 5.8rem;
   height: 2.7rem;
   border: none;
@@ -302,5 +304,95 @@ input[type="button"] {
   line-height: 54px;
 }
 .user-card{
-  display: flex;
+  display: flex ;
+  margin-top: 1rem;
 }
+.user-card img{
+  width: 70px;
+  border-radius: 5px;
+}
+.user-card div{
+  margin-left: 2rem;
+}
+.user-card div h5{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.user-card div p{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+
+                    /* FOOTER SECTION  */
+
+
+.footer{
+  margin-top: 10rem ;
+  padding: 5rem  10rem;
+  background-color: #100e1d;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.footer-nav ul li{list-style: none;}
+.footer-nav ul li a{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-icon h1{
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+  cursor: pointer;
+}
+.footer-icon img {cursor: pointer;}
+.footer-contact{
+  position: relative;
+}
+.footer-contact p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8rem;  
+}
+.footer-contact input[type="button"] {
+  width: 5.8rem;
+  height: 2.7rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #2d9cdb;
+  font-size: 18px;
+  color: #f2f2f2;
+  position: absolute;
+  right: 0.3rem;
+  top: 1.9em;
+  cursor: pointer;
+}
+footer{
+  background-color: #100e1d;
+}
+.creator{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2rem;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.creator a{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2rem;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+/* now make this website  */
+
