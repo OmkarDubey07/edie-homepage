@@ -360,7 +360,7 @@ input[type="email"]::placeholder {
   font-weight: 500;
   line-height: 1.8rem;  
 }
-.footer-contact input[type="button"] {
+.footer-contact input[type="button"]{
   width: 5.8rem;
   height: 2.7rem;
   border: none;
@@ -462,6 +462,161 @@ footer{
 
 }
 
+@media screen and (max-width:1024px) {
 
-@media screen and (max-width:768px) {}
+  .navbar{
+    margin: 2rem;
+  }
+  .nav ul li a{
+    font-size: 18px;
+  }
+  .nav ul li{
+    margin: 0 1rem;
+  }
+
+
+  .main-box1 ,
+  .main-box2 
+  {
+    left: 4rem;
+  }
+  .main-box1 h1 ,
+  .main-box2 h1 
+  {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  main img {
+    height:220px ;
+    border-radius: 8px;
+  }
+  
+  .main-box2 p {
+    font-size: 14px;
+    line-height: 25px;
+    width: 16rem;
+  }
+  .main-box2 .span{
+    font-size: 12px;
+  }
+  input[type="email"] {
+    width: 16rem;
+    height: 2rem;
+    border-radius: 8px;
+  }
+  input[type="email"]::placeholder{
+    font-size: 14px;
+  }
+  .main-box2 input[type="button"]{
+    height: 2rem;
+    width: 4rem;
+    right: 6.3rem;
+    bottom: 4px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+
+  .services{
+    margin: 6rem 4rem;
+  }
+  .serviceBox{
+    flex-wrap: wrap ;
+    row-gap: 2rem;
+  }
+  .services h1{
+    font-size: 30px;
+  }
+  .serviceBox .boxes {
+    padding: 1rem;
+    width: 17rem;
+  }
+  .serviceBox .boxes h6{
+    font-size: 20px;
+    margin: 1rem 0 ;
+  }
+  .serviceBox .boxes p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 1rem;
+  }
+
+
+  .design{
+    margin: 0  4rem;
+  }
+  .design h1{
+    font-size: 30px;
+  }
+  .see-more a{
+    font-size: 20px;
+  }
+  .see-more a i{
+    font-size:16px ;
+  }
+
+
+  .team{
+    margin: 12rem 4rem;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .team-heading h5{
+    font-size: 16px;
+  }
+  .team-heading h1{
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .team-heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  
+  .Testimonials{
+    margin: 0 4rem;
+  }
+  .Testimonials h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .Testimonials h1 br{display: none;}
+  .user-card img{
+    width: 50px;
+    height: 50px;
+  }
+  .user-card div h5{
+    font-size:20px ;
+    line-height: 25px;
+  }
+  .user-card div p{
+    font-size: 14px;
+  }
+
+
+  .footer{
+    margin-top: 5rem;
+    padding: 4rem 4rem;
+  }
+  .footer-nav ul li a{
+    font-size: 16px;
+  }
+  .footer-icon h1{
+    font-size: 1.9rem;
+  }
+  .footer-icon img{
+    width: 20px;
+  }
+  .footer-contact p{
+    font-size: 12px;
+  }
+  .footer-contact input[type="button"]{
+    width: 4rem;
+    height: 2.1rem;
+    border-radius: 8px;
+    top: 2rem;
+  }
+}
 
