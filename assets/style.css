@@ -63,7 +63,7 @@ main {
   font-weight: 500;
 }
 main img {
-  width: 90vw;
+  width: 100%;
   margin: auto;
   border: none;
   border-radius: 15px;
@@ -198,7 +198,7 @@ input[type="email"]::placeholder {
 {
   display: flex;
   justify-content: space-evenly;
-  align-content: center;
+  align-items: center;
   margin-top: 10rem;
   position: relative;
   /* column-gap: 20px; */
@@ -394,5 +394,74 @@ footer{
 }
 
 
-/* now make this website  */
+/* now make this website responsive  */
+
+@media screen and (max-width:1280px) {
+
+  .nav ul li a{
+    font-size: 20px;
+  }
+  /* main  */
+  .main-box1 ,
+  .main-box2 
+  {
+    left: 6rem;
+  }
+  main img{
+    width: 100%;
+  }
+  /* service */
+  .services {
+    margin: 8rem 6rem;
+  }
+  .serviceBox .boxes{
+   padding: 1.8rem;
+  }
+
+  /* design */
+  .design{
+    margin: 0 6rem;
+  }
+  .box img{
+    width: 95%;
+  }
+  .see-more a{
+    font-size: 22px;
+  }
+  .see-more a i{
+    font-size: 18px;
+  }
+
+  /* team */
+  .team{
+    margin: 15rem 6rem;
+  }
+  .team-collage img:nth-child(3){
+    width: 280px;
+  }
+  .team-collage img:nth-child(2){
+    width: 230px;
+  }
+  .team-collage img:nth-child(1){
+    right: 30px;
+  }
+
+
+  /* TESTIMONIALS */
+  .Testimonials{
+    margin: 0 6rem;
+  }
+  .Testimonials h1{
+    font-size: 34px;
+  }
+
+  /* FOOTER */
+  .footer{
+    padding: 5rem 6rem;
+  }
+
+}
+
+
+@media screen and (max-width:768px) {}
 
