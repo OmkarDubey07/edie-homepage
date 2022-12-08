@@ -45,6 +45,16 @@ body {
   display: none;
 }
 
+.nav.active{
+  display: flex;
+}
+.nav.active ul{
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+  background-color: #100e1d;
+}
+
 /* HERO SECTION  */
 
 main {
@@ -57,6 +67,7 @@ main {
   position: relative;
   left: 16rem;
 }
+
 .main-box1 p {
   color: #2d9cdb;
   font-size: 18px;
@@ -366,6 +377,7 @@ input[type="email"]::placeholder {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.8rem;  
+  color: #828282;
 }
 .footer-contact input[type="button"]{
   width: 5.8rem;
@@ -377,7 +389,7 @@ input[type="email"]::placeholder {
   color: #f2f2f2;
   position: absolute;
   right: 0.3rem;
-  top: 1.9em;
+  top: 2.2rem;
   cursor: pointer;
 }
 footer{
@@ -399,6 +411,8 @@ footer{
   font-size: 14px;
   font-weight: 800;
 }
+
+
 
 
 /* now make this website responsive  */
@@ -769,6 +783,7 @@ footer{
   }
   main{
     margin: 1rem;
+    overflow: hidden;
   }
   .main-box1 h1,
   .main-box2 h1{
@@ -779,7 +794,7 @@ footer{
   .main-box2 
   {
     left: 2rem;
-    width: auto;
+    width: auto ;
   }
   .main-box1 p{
     font-size: 12px;
@@ -787,13 +802,14 @@ footer{
   }
   main img{
     width: 100%;
+    height: 10rem;
   }
 
 
   .services{
     margin: 4rem 1.5rem;
   }
-  .services {
+  .services h1{
     line-height: 36px;
   }
 
@@ -849,7 +865,7 @@ footer{
     border-radius: 15px;
   }
   .team-collage img:nth-child(3){
-    width: 14rem;
+    width: 13.5rem;
     height: 14rem;
   }
   .team-collage img:nth-child(2){
@@ -858,12 +874,175 @@ footer{
     bottom: -5rem;
   }
   .team-collage img:nth-child(1){
-    right: 1.8rem;
+    right: 2rem;
     top: -5rem;
     width: 9rem;
     height: 9rem;
   }
 
+  .Testimonials{
+    margin: 0 1.5rem;
+    /* display: none; */
+  }
+  .Testimonials h1{
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .footer{
+    padding: 2rem 2.5rem;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .footer-nav ul li a{
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .footer-icon h1{
+    font-size: 36px;
+    line-height: 3.5rem;
+
+  }
+  .footer-icon img{
+    width: 24px;
+  }
+  .footer-contact input[type="button"]{
+    left: 11.8rem;
+  }
 
 }
-/* @media screen and (max-width: 450) {} */
+
+@media screen and (max-width: 450px){
+  
+  .logo p{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .menu-icon{
+    padding-top: 5px;
+    font-size: 22px;
+  }
+  .navbar{
+    margin: 1rem;
+  }
+  .main-box1 ,
+  .main-box2 
+  {
+    left: 1rem;
+  }
+  .main-box1 h1,
+  .main-box2 h1,
+  .services h1,
+  .design h1
+  {
+    font-size: 24px;
+  }
+  main img{
+    height: 9rem;
+  }
+  .span{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .main-box2 input[type="email"]{
+    height: 2.9rem;
+    width: 18rem;
+    border-radius: 12px;
+  }
+  .main-box2 input[type="button"]{
+    font-size: 14px;
+    line-height: 21px;
+    left: 13.6rem;
+    height: 39px;
+    border-radius: 12px;
+  }
+  .services{
+    margin: 4rem 1rem;
+  }
+  .serviceBox .boxes img{
+    width: 4rem;
+  }
+  .serviceBox .boxes h6{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .serviceBox .boxes p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .design{
+    margin: 0 1rem;
+  }
+  .box h5{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .team{
+    margin: 10rem 1rem;
+  }
+  .team-heading h5{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .team-heading h1{
+    font-size: 36px;
+    line-height: 54px;
+  }
+  .team-heading p{
+    font-size: 16px;
+    font-weight: 24px;
+  }
+  .team-collage{
+    margin-top: 4rem;
+    float: none;
+  }
+  .team-collage img:nth-child(3){
+    width: 10.7rem;
+    height: 10.7rem;
+    left: -10px;
+  } 
+  .team-collage img:nth-child(2){
+    width: 10.2rem;
+    height: 10.7rem;
+  } 
+  .team-collage img:nth-child(1){
+    width: 9.4rem;
+    height: 9.4rem;
+    right: .5rem;
+  } 
+
+  /* Testimonials */
+  .Testimonials{
+    margin: 0 1rem;
+  }
+  .Testimonials h1{
+    line-height: 36px;
+  }
+
+  /* footer */
+  .footer-nav ul li a{
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .footer-icon h1{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .footer-icon img{
+    width: 24px;
+  }
+  .footer-contact p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .footer-contact input[type="button"]{
+    top: 1.1rem;
+  }
+  .creator{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .creator a{
+    font-weight: 700;
+  }
+}
